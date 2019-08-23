@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h4>
+   index.html
+</h4>
+<form th:action="@{/carwl/submit}" th:method="post">
+    <input name="name" id="name">
+    <input name="crawDBPath" id="crawDBPath">
+    <input name="seed" id="seed">
+    <button type="submit">submit</button>
+</form>
+
+
+
+</body>
+</html>
